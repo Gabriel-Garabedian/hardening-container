@@ -1,0 +1,20 @@
+# Segredos: nunca podem entrar no contexto de build (nem nas camadas da imagem)
+.env
+.env.*
+
+# Controle de versão e documentação
+.git
+.gitignore
+docs
+README.md
+HARDENING.md
+
+# Arquivos de infraestrutura que não precisam estar na imagem
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Dependências e lixo local
+**/node_modules
+npm-debug.log*
+.DS_Store

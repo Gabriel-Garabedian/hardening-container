@@ -1,0 +1,13 @@
+# Segredos locais: NUNCA versionar
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
